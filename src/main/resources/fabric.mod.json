@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "divine-encounters",
+	"version": "${version}",
+	"name": "Divine Encounters",
+	"description": "This is the Divine Encounters Mod! It lets players interact with various different Gods!",
+	"authors": [
+		"Chai!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/divine-encounters/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"chai.divinen.DivineEncounters"
+		],
+		"fabric-datagen": [
+			"chai.divinen.DivineEncountersDataGenerator"
+		],
+		"client": [
+			"chai.divinen.DivineEncountersClient"
+		]
+	},
+	"mixins": [
+		"divine-encounters.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
