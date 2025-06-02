@@ -1,12 +1,15 @@
 {
   "itemGroup.divinen": "Divine Encounters",
 
+  "item.divinen.divine_essence": "Divine Essence",
+
   "item.divinen.idol": "Idol",
   "item.divinen.idol.tooltip": "An empty Idol that waits to be worshipped",
 
   "item.divinen.zeus_idol": "Zeus Idol",
   "item.divinen.zeus_idol.tooltip": "An Idol of the God §lZEUS",
 
-
-  "item.divinen.ambrosia": "Ambrosia"
+  "item.divinen.ambrosia": "Ambrosia",
+  "item.divinen.dried_herbs": "Dried Herbs",
+  "item.divinen.ceramic_piece": "Ceramic Piece"
 }

@@ -1,6 +1,7 @@
 package chai.divinen.item;
 
 import chai.divinen.DivineEncounters;
+import chai.divinen.item.custom.IdolItem;
 import net.fabricmc.fabric.api.client.item.v1.ItemTooltipCallback;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -27,9 +28,13 @@ public class ModItems {
 
     // Mod Items
     public static final Item AMBROSIA = registerItem("ambrosia", Item::new, new Item.Settings().food(ModFoodComponents.DIVINE_FOOD_COMPONENT, ModFoodComponents.AMBROSIA_COMPONENT));
+    public static final Item DRIED_HERBS = registerItem("dried_herbs", Item::new, new Item.Settings().food(ModFoodComponents.DIVINE_FOOD_COMPONENT));
 
-    public static final Item IDOL = registerItem("idol", Item::new, new Item.Settings());
-    public static final Item ZEUS_IDOL = registerItem("zeus_idol", Item::new, new Item.Settings());
+    public static final Item IDOL = registerItem("idol", IdolItem::new, new IdolItem.Settings().maxCount(1));
+    public static final Item ZEUS_IDOL = registerItem("zeus_idol", IdolItem::new, new IdolItem.Settings().maxCount(1));
+
+    public static final Item DIVINE_ESSENCE = registerItem("divine_essence", Item::new, new Item.Settings());
+    public static final Item CERAMIC_PIECE = registerItem("ceramic_piece", Item::new, new Item.Settings());
 
 
     private static Item registerItem(String name, Function<Item.Settings, Item> itemFactory, Item.Settings settings) {
@@ -52,6 +57,9 @@ public class ModItems {
             itemGroup.add(IDOL);
             itemGroup.add(ZEUS_IDOL);
             itemGroup.add(AMBROSIA);
+            itemGroup.add(DIVINE_ESSENCE);
+            itemGroup.add(CERAMIC_PIECE);
+            itemGroup.add(DRIED_HERBS);
         });
 
         ItemTooltipCallback.EVENT.register((itemStack, tooltipContext, tooltipType, list) -> {
