@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "divine-encounters",
+	"id": "divinen",
 	"version": "${version}",
 	"name": "Divine Encounters",
 	"description": "This is the Divine Encounters Mod! It lets players interact with various different Gods!",
@@ -9,10 +9,10 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/"
+		"sources": "https://github.com/chaitlatt3/Divine-Encounters-1.21.X"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/divine-encounters/icon.png",
+	"icon": "assets/divinen/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -26,7 +26,7 @@
 		]
 	},
 	"mixins": [
-		"divine-encounters.mixins.json"
+		"divinen.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
