@@ -2,7 +2,6 @@ package chai.divinen.item;
 
 import chai.divinen.DivineEncounters;
 import chai.divinen.item.custom.IdolItem;
-import net.fabricmc.fabric.api.client.item.v1.ItemTooltipCallback;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -62,13 +61,6 @@ public class ModItems {
             itemGroup.add(CERAMIC_PIECE);
             itemGroup.add(DRIED_HERBS);
             itemGroup.add(FRESH_HERBS);
-        });
-
-        ItemTooltipCallback.EVENT.register((itemStack, tooltipContext, tooltipType, list) -> {
-            if(!itemStack.isOf(ModItems.IDOL)) {
-                return;
-            }
-            list.add(Text.translatable("item.divinen.idol.tooltip"));
         });
     }
 }

@@ -1,5 +1,6 @@
 package chai.divinen;
 
+import chai.divinen.block.ModBlocks;
 import chai.divinen.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class DivineEncounters implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.initializeItems();
+		ModBlocks.initializeBlocks();
 	}
 }

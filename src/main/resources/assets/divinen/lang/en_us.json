@@ -11,5 +11,8 @@
 
   "item.divinen.ambrosia": "Ambrosia",
   "item.divinen.dried_herbs": "Dried Herbs",
-  "item.divinen.ceramic_piece": "Ceramic Piece"
+  "item.divinen.ceramic_piece": "Ceramic Piece",
+
+  "item.divinen.altar": "Altar",
+  "block.divinen.altar": "Altar"
 }
