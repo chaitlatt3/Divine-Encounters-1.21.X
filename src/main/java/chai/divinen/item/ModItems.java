@@ -29,6 +29,7 @@ public class ModItems {
     // Mod Items
     public static final Item AMBROSIA = registerItem("ambrosia", Item::new, new Item.Settings().food(ModFoodComponents.DIVINE_FOOD_COMPONENT, ModFoodComponents.AMBROSIA_COMPONENT));
     public static final Item DRIED_HERBS = registerItem("dried_herbs", Item::new, new Item.Settings().food(ModFoodComponents.DIVINE_FOOD_COMPONENT));
+    public static final Item FRESH_HERBS = registerItem("fresh_herbs", Item::new, new Item.Settings().food(ModFoodComponents.DIVINE_FOOD_COMPONENT));
 
     public static final Item IDOL = registerItem("idol", IdolItem::new, new IdolItem.Settings().maxCount(1));
     public static final Item ZEUS_IDOL = registerItem("zeus_idol", IdolItem::new, new IdolItem.Settings().maxCount(1));
@@ -60,6 +61,7 @@ public class ModItems {
             itemGroup.add(DIVINE_ESSENCE);
             itemGroup.add(CERAMIC_PIECE);
             itemGroup.add(DRIED_HERBS);
+            itemGroup.add(FRESH_HERBS);
         });
 
         ItemTooltipCallback.EVENT.register((itemStack, tooltipContext, tooltipType, list) -> {
