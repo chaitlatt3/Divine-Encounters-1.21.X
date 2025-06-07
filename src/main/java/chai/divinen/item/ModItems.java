@@ -34,7 +34,13 @@ public class ModItems {
     public static final Item ZEUS_IDOL = registerItem("zeus_idol", IdolItem::new, new IdolItem.Settings().maxCount(1));
 
     public static final Item DIVINE_ESSENCE = registerItem("divine_essence", Item::new, new Item.Settings());
+    public static final Item ESSENCE_SHARDS = registerItem("essence_shards", Item::new, new Item.Settings());
     public static final Item CERAMIC_PIECE = registerItem("ceramic_piece", Item::new, new Item.Settings());
+
+    public static final Item DIVINE_IRON_INGOT = registerItem("divine_iron_ingot", Item::new, new Item.Settings());
+    public static final Item DIVINE_GOLD_INGOT = registerItem("divine_gold_ingot", Item::new, new Item.Settings());
+    public static final Item DIVINE_EMERALD = registerItem("divine_emerald", Item::new, new Item.Settings());
+    public static final Item DIVINE_DIAMOND = registerItem("divine_diamond", Item::new, new Item.Settings());
 
 
     private static Item registerItem(String name, Function<Item.Settings, Item> itemFactory, Item.Settings settings) {
@@ -61,6 +67,11 @@ public class ModItems {
             itemGroup.add(CERAMIC_PIECE);
             itemGroup.add(DRIED_HERBS);
             itemGroup.add(FRESH_HERBS);
+            itemGroup.add(DIVINE_IRON_INGOT);
+            itemGroup.add(DIVINE_GOLD_INGOT);
+            itemGroup.add(DIVINE_EMERALD);
+            itemGroup.add(DIVINE_DIAMOND);
+            itemGroup.add(ESSENCE_SHARDS);
         });
     }
 }

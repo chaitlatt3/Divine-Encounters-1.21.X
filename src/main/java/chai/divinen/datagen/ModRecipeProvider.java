@@ -46,6 +46,45 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .criterion(hasItem(ModItems.DIVINE_ESSENCE), conditionsFromItem(ModItems.DIVINE_ESSENCE))
                         .criterion(hasItem(ModItems.CERAMIC_PIECE), conditionsFromItem(ModItems.CERAMIC_PIECE))
                         .offerTo(exporter);
+
+                // Essence Shards
+                ShapelessRecipeJsonBuilder.create(itemLookup, RecipeCategory.MISC, ModItems.ESSENCE_SHARDS, 9)
+                        .input(ModItems.DIVINE_ESSENCE)
+                        .criterion(hasItem(ModItems.DIVINE_ESSENCE), conditionsFromItem(ModItems.DIVINE_ESSENCE))
+                        .offerTo(exporter);
+
+                // Divine Iron Ingot
+                ShapedRecipeJsonBuilder.create(itemLookup, RecipeCategory.MISC, ModItems.DIVINE_IRON_INGOT).pattern(" s ").pattern("sis").pattern(" s ")
+                        .input('s', ModItems.ESSENCE_SHARDS)
+                        .input('i', Items.IRON_INGOT)
+                        .criterion(hasItem(ModItems.ESSENCE_SHARDS), conditionsFromItem(ModItems.ESSENCE_SHARDS))
+                        .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                        .offerTo(exporter);
+
+                // Divine Gold Ingot
+                ShapedRecipeJsonBuilder.create(itemLookup, RecipeCategory.MISC, ModItems.DIVINE_GOLD_INGOT).pattern(" s ").pattern("sgs").pattern(" s ")
+                        .input('s', ModItems.ESSENCE_SHARDS)
+                        .input('g', Items.GOLD_INGOT)
+                        .criterion(hasItem(ModItems.ESSENCE_SHARDS), conditionsFromItem(ModItems.ESSENCE_SHARDS))
+                        .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
+                        .offerTo(exporter);
+
+                // Divine Emerald
+                ShapedRecipeJsonBuilder.create(itemLookup, RecipeCategory.MISC, ModItems.DIVINE_EMERALD).pattern(" s ").pattern("ses").pattern(" s ")
+                        .input('s', ModItems.ESSENCE_SHARDS)
+                        .input('e', Items.EMERALD)
+                        .criterion(hasItem(ModItems.ESSENCE_SHARDS), conditionsFromItem(ModItems.ESSENCE_SHARDS))
+                        .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
+                        .offerTo(exporter);
+
+                // Divine Diamond
+                ShapedRecipeJsonBuilder.create(itemLookup, RecipeCategory.MISC, ModItems.DIVINE_DIAMOND).pattern(" s ").pattern("sds").pattern(" s ")
+                        .input('s', ModItems.ESSENCE_SHARDS)
+                        .input('d', Items.DIAMOND)
+                        .criterion(hasItem(ModItems.ESSENCE_SHARDS), conditionsFromItem(ModItems.ESSENCE_SHARDS))
+                        .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                        .offerTo(exporter);
+
             }
         };
     }

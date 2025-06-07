@@ -28,5 +28,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.DIVINE_ESSENCE, Models.GENERATED);
         itemModelGenerator.register(ModItems.DRIED_HERBS, Models.GENERATED);
         itemModelGenerator.register(ModItems.FRESH_HERBS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DIVINE_IRON_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DIVINE_GOLD_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DIVINE_EMERALD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DIVINE_DIAMOND, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ESSENCE_SHARDS, Models.GENERATED);
     }
 }

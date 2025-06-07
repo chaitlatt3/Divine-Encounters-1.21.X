@@ -2,6 +2,12 @@
   "itemGroup.divinen": "Divine Encounters",
 
   "item.divinen.divine_essence": "Divine Essence",
+  "item.divinen.essence_shards": "Essence Shards",
+
+  "item.divinen.divine_iron_ingot": "Divine Iron Ingot",
+  "item.divinen.divine_gold_ingot": "Divine Gold Ingot",
+  "item.divinen.divine_emerald": "Divine Emerald",
+  "item.divinen.divine_diamond": "Divine Diamond",
 
   "item.divinen.idol": "Idol",
   "item.divinen.idol.tooltip": "An empty Idol that waits to be worshipped",
