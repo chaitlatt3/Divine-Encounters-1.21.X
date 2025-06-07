@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "e": "minecraft:emerald",
+    "s": "divinen:essence_shards"
+  },
+  "pattern": [
+    " s ",
+    "ses",
+    " s "
+  ],
+  "result": {
+    "count": 1,
+    "id": "divinen:divine_emerald"
+  }
+}

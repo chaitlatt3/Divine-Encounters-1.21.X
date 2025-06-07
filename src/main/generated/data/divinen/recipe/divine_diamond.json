@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "d": "minecraft:diamond",
+    "s": "divinen:essence_shards"
+  },
+  "pattern": [
+    " s ",
+    "sds",
+    " s "
+  ],
+  "result": {
+    "count": 1,
+    "id": "divinen:divine_diamond"
+  }
+}

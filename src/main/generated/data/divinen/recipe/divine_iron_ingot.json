@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": "minecraft:iron_ingot",
+    "s": "divinen:essence_shards"
+  },
+  "pattern": [
+    " s ",
+    "sis",
+    " s "
+  ],
+  "result": {
+    "count": 1,
+    "id": "divinen:divine_iron_ingot"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": "divinen:ceramic_piece",
+    "d": "divinen:divine_essence",
+    "i": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    " i ",
+    " d ",
+    "ccc"
+  ],
+  "result": {
+    "count": 1,
+    "id": "divinen:idol"
+  }
+}

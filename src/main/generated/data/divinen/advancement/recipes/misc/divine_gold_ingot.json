@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_essence_shards": {
+      "conditions": {
+        "items": [
+          {
+            "items": "divinen:essence_shards"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gold_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "divinen:divine_gold_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_essence_shards",
+      "has_gold_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "divinen:divine_gold_ingot"
+    ]
+  }
+}

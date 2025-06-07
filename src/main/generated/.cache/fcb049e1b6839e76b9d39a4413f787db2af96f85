@@ -1,0 +1,15 @@
+// 1.21.5	-999999999-01-01T00:00:00	Divine Encounters/ModRecipeProvider
+5e8a81145b359e85bdf0e935e36a6e40ba783294 data/divinen/advancement/recipes/food/ambrosia.json
+0250030c5c072572a942623efe48a81a7f295bcc data/divinen/advancement/recipes/misc/divine_diamond.json
+1583fff3e346a7e5eb19fce902863ccfebf50248 data/divinen/advancement/recipes/misc/divine_emerald.json
+778aac9212eb43d1636fb7765572911bde21a887 data/divinen/advancement/recipes/misc/divine_gold_ingot.json
+13fa92dc8f3eceec2d0d955972c9a5f34fec521f data/divinen/advancement/recipes/misc/divine_iron_ingot.json
+c737596761bb7a98de23b3577dac288751735d7f data/divinen/advancement/recipes/misc/essence_shards.json
+9512bec472bebafc455cdd4445b90b3358ad5f74 data/divinen/advancement/recipes/misc/idol.json
+9c13e2b7bfafd6ab9646447f766c87120b12098a data/divinen/recipe/ambrosia.json
+062aca4788bc6425b83ed934fc0a75883070dff6 data/divinen/recipe/divine_diamond.json
+dd1cf7d31b0f0628a2b40525ef7c658a7befabc3 data/divinen/recipe/divine_emerald.json
+fe2ab86c765ea0d7e3c760c58befb06588e5e8b0 data/divinen/recipe/divine_gold_ingot.json
+0d1f3e6ca38914817b11016c6263c04a18e89da9 data/divinen/recipe/divine_iron_ingot.json
+ac88e613398c5eae168dea15a19cceef505d0668 data/divinen/recipe/essence_shards.json
+bddd4c5aafdc177181f2dd9c2d5869b1de9f193b data/divinen/recipe/idol.json

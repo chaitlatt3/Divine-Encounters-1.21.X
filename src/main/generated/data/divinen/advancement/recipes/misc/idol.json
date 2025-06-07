@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ceramic_piece": {
+      "conditions": {
+        "items": [
+          {
+            "items": "divinen:ceramic_piece"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_divine_essence": {
+      "conditions": {
+        "items": [
+          {
+            "items": "divinen:divine_essence"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "divinen:idol"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_iron_ingot",
+      "has_divine_essence",
+      "has_ceramic_piece"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "divinen:idol"
+    ]
+  }
+}
